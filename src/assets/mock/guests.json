@@ -1,0 +1,62 @@
+{
+  "guests": [
+    { "id": 1, "name": "Mr. Aaron Blake", "vipLevel": "VIP 2", "room": "Suite 215", "dateRange": "03 Oct 2025 - 07 Oct 2025", "status": "in-house", "group": "Blake Enterprises", "adults": 2, "children": 1, "transfers": 1 },
+    { "id": 2, "name": "Ms. Brianna Cole", "vipLevel": "VIP 4", "room": "Room 148", "dateRange": "04 Oct 2025 - 06 Oct 2025", "status": "departing", "group": "Cole Industries", "adults": 1, "transfers": 0 },
+    { "id": 3, "name": "Mr. Caleb Turner", "room": "Room 172", "dateRange": "02 Oct 2025 - 05 Oct 2025", "status": "arriving", "adults": 2, "children": 2, "transfers": 1 },
+    { "id": 4, "name": "Ms. Daniela Cruz", "vipLevel": "VIP 3", "room": "Suite 330", "dateRange": "06 Oct 2025 - 10 Oct 2025", "status": "in-house", "group": "Cruz Ventures", "adults": 2, "transfers": 2 },
+    { "id": 5, "name": "Mr. Elijah Moore", "room": "Room 199", "dateRange": "03 Oct 2025 - 04 Oct 2025", "status": "departing", "adults": 1, "transfers": 0 },
+    { "id": 6, "name": "Ms. Fatima Khan", "vipLevel": "VIP 1", "room": "Suite 405", "dateRange": "07 Oct 2025 - 11 Oct 2025", "status": "arriving", "adults": 2, "children": 1, "transfers": 1 },
+    { "id": 7, "name": "Mr. Gabriel Stone", "room": "Room 260", "dateRange": "04 Oct 2025 - 07 Oct 2025", "status": "in-house", "group": "Stone Family", "adults": 3, "children": 1, "transfers": 0 },
+    { "id": 8, "name": "Ms. Hannah Brooks", "vipLevel": "VIP 5", "room": "Suite 508", "dateRange": "08 Oct 2025 - 14 Oct 2025", "status": "arriving", "group": "Brooks Intl", "adults": 1, "transfers": 2 },
+    { "id": 9, "name": "Mr. Isaac Reed", "room": "Room 224", "dateRange": "03 Oct 2025 - 06 Oct 2025", "status": "departing", "adults": 2, "transfers": 1 },
+    { "id": 10, "name": "Ms. Jasmine Ali", "vipLevel": "VIP 2", "room": "Room 135", "dateRange": "05 Oct 2025 - 09 Oct 2025", "status": "in-house", "adults": 1, "transfers": 0 },
+
+    { "id": 11, "name": "Mr. Kevin Shah", "room": "Suite 612", "dateRange": "07 Oct 2025 - 12 Oct 2025", "status": "arriving", "group": "Shah Group", "adults": 2, "children": 1, "transfers": 1 },
+    { "id": 12, "name": "Ms. Leila Martin", "vipLevel": "VIP 1", "room": "Room 243", "dateRange": "02 Oct 2025 - 04 Oct 2025", "status": "departing", "adults": 2, "transfers": 0 },
+    { "id": 13, "name": "Mr. Marcus Hill", "room": "Suite 705", "dateRange": "04 Oct 2025 - 08 Oct 2025", "status": "in-house", "group": "Hill Holdings", "adults": 2, "children": 2, "transfers": 2 },
+    { "id": 14, "name": "Ms. Nisha Verma", "vipLevel": "VIP 3", "room": "Room 320", "dateRange": "09 Oct 2025 - 12 Oct 2025", "status": "arriving", "adults": 1, "transfers": 1 },
+    { "id": 15, "name": "Mr. Omar Farooq", "room": "Room 402", "dateRange": "03 Oct 2025 - 07 Oct 2025", "status": "in-house", "adults": 2, "transfers": 0 },
+
+    { "id": 16, "name": "Ms. Priyanka Rao", "vipLevel": "VIP 2", "room": "Suite 818", "dateRange": "05 Oct 2025 - 11 Oct 2025", "status": "in-house", "group": "Rao Family", "adults": 2, "children": 1, "transfers": 1 },
+    { "id": 17, "name": "Mr. Quentin Hayes", "room": "Room 150", "dateRange": "04 Oct 2025 - 06 Oct 2025", "status": "departing", "adults": 1, "transfers": 0 },
+    { "id": 18, "name": "Ms. Riya Kapoor", "vipLevel": "VIP 1", "room": "Suite 932", "dateRange": "07 Oct 2025 - 13 Oct 2025", "status": "arriving", "adults": 2, "transfers": 2 },
+    { "id": 19, "name": "Mr. Samuel Wright", "room": "Room 261", "dateRange": "03 Oct 2025 - 05 Oct 2025", "status": "in-house", "group": "Wright Tours", "adults": 3, "children": 1, "transfers": 1 },
+    { "id": 20, "name": "Ms. Tara Singh", "vipLevel": "VIP 4", "room": "Suite 441", "dateRange": "10 Oct 2025 - 15 Oct 2025", "status": "arriving", "group": "Singh Corp", "adults": 1, "transfers": 3 },
+
+    { "id": 21, "name": "Mr. Uday Mehta", "room": "Room 370", "dateRange": "03 Oct 2025 - 04 Oct 2025", "status": "departing", "adults": 2, "transfers": 0 },
+    { "id": 22, "name": "Ms. Valeria Gomez", "vipLevel": "VIP 2", "room": "Room 505", "dateRange": "05 Oct 2025 - 09 Oct 2025", "status": "in-house", "adults": 1, "transfers": 1 },
+    { "id": 23, "name": "Mr. Wayne Foster", "room": "Suite 620", "dateRange": "07 Oct 2025 - 12 Oct 2025", "status": "arriving", "group": "Foster Industries", "adults": 2, "children": 1, "transfers": 1 },
+    { "id": 24, "name": "Ms. Ximena Ortiz", "vipLevel": "VIP 1", "room": "Room 386", "dateRange": "04 Oct 2025 - 07 Oct 2025", "status": "departing", "adults": 2, "transfers": 0 },
+    { "id": 25, "name": "Mr. Yusuf Rahman", "room": "Room 410", "dateRange": "06 Oct 2025 - 10 Oct 2025", "status": "in-house", "group": "Rahman Family", "adults": 2, "children": 2, "transfers": 2 },
+
+    { "id": 26, "name": "Ms. Zara Malik", "vipLevel": "VIP 3", "room": "Suite 730", "dateRange": "08 Oct 2025 - 13 Oct 2025", "status": "arriving", "adults": 1, "transfers": 1 },
+    { "id": 27, "name": "Mr. Adrian Lopez", "room": "Room 236", "dateRange": "03 Oct 2025 - 06 Oct 2025", "status": "in-house", "adults": 2, "transfers": 0 },
+    { "id": 28, "name": "Ms. Bianca Russo", "vipLevel": "VIP 2", "room": "Room 345", "dateRange": "07 Oct 2025 - 09 Oct 2025", "status": "departing", "group": "Russo Events", "adults": 2, "children": 1, "transfers": 1 },
+    { "id": 29, "name": "Mr. Connor Blake", "room": "Suite 812", "dateRange": "09 Oct 2025 - 14 Oct 2025", "status": "arriving", "adults": 1, "transfers": 0 },
+    { "id": 30, "name": "Ms. Divya Iyer", "vipLevel": "VIP 1", "room": "Room 450", "dateRange": "04 Oct 2025 - 08 Oct 2025", "status": "in-house", "adults": 2, "transfers": 1 },
+
+    { "id": 31, "name": "Mr. Ethan Long", "room": "Room 160", "dateRange": "03 Oct 2025 - 04 Oct 2025", "status": "departing", "group": "Long & Co", "adults": 3, "transfers": 0 },
+    { "id": 32, "name": "Ms. Freya Olsen", "vipLevel": "VIP 4", "room": "Suite 920", "dateRange": "10 Oct 2025 - 16 Oct 2025", "status": "arriving", "group": "Olsen Group", "adults": 2, "children": 2, "transfers": 3 },
+    { "id": 33, "name": "Mr. Gian Rossi", "room": "Room 279", "dateRange": "05 Oct 2025 - 09 Oct 2025", "status": "in-house", "adults": 1, "transfers": 0 },
+    { "id": 34, "name": "Ms. Huda Siddiqui", "vipLevel": "VIP 2", "room": "Room 333", "dateRange": "07 Oct 2025 - 11 Oct 2025", "status": "in-house", "group": "Siddiqui Partners", "adults": 2, "transfers": 1 },
+    { "id": 35, "name": "Mr. Ivan Petrov", "room": "Suite 540", "dateRange": "08 Oct 2025 - 13 Oct 2025", "status": "arriving", "adults": 2, "children": 1, "transfers": 1 },
+
+    { "id": 36, "name": "Ms. Julia Bennett", "vipLevel": "VIP 1", "room": "Room 190", "dateRange": "04 Oct 2025 - 06 Oct 2025", "status": "departing", "adults": 1, "transfers": 0 },
+    { "id": 37, "name": "Mr. Karan Malhotra", "room": "Suite 650", "dateRange": "06 Oct 2025 - 10 Oct 2025", "status": "in-house", "group": "Malhotra Resorts", "adults": 2, "children": 2, "transfers": 2 },
+    { "id": 38, "name": "Ms. Lila Fernandes", "vipLevel": "VIP 3", "room": "Room 420", "dateRange": "09 Oct 2025 - 12 Oct 2025", "status": "arriving", "adults": 1, "transfers": 1 },
+    { "id": 39, "name": "Mr. Milan Gupta", "room": "Room 288", "dateRange": "03 Oct 2025 - 05 Oct 2025", "status": "in-house", "adults": 2, "transfers": 0 },
+    { "id": 40, "name": "Ms. Noelle Carter", "vipLevel": "VIP 2", "room": "Suite 760", "dateRange": "07 Oct 2025 - 12 Oct 2025", "status": "arriving", "group": "Carter Corp", "adults": 2, "children": 1, "transfers": 2 },
+
+    { "id": 41, "name": "Mr. Oliver Grant", "room": "Room 350", "dateRange": "04 Oct 2025 - 07 Oct 2025", "status": "departing", "adults": 1, "transfers": 0 },
+    { "id": 42, "name": "Ms. Pooja Nair", "vipLevel": "VIP 1", "room": "Room 142", "dateRange": "05 Oct 2025 - 09 Oct 2025", "status": "in-house", "group": "Nair Trust", "adults": 2, "transfers": 1 },
+    { "id": 43, "name": "Mr. Rafael Costa", "room": "Suite 870", "dateRange": "10 Oct 2025 - 14 Oct 2025", "status": "arriving", "adults": 2, "children": 2, "transfers": 1 },
+    { "id": 44, "name": "Ms. Sara Haddad", "vipLevel": "VIP 2", "room": "Room 316", "dateRange": "07 Oct 2025 - 09 Oct 2025", "status": "in-house", "adults": 1, "transfers": 0 },
+    { "id": 45, "name": "Mr. Tariq Ahmed", "room": "Suite 950", "dateRange": "04 Oct 2025 - 10 Oct 2025", "status": "in-house", "group": "Ahmed & Sons", "adults": 2, "children": 1, "transfers": 2 },
+
+    { "id": 46, "name": "Ms. Uma Desai", "vipLevel": "VIP 1", "room": "Room 226", "dateRange": "08 Oct 2025 - 11 Oct 2025", "status": "arriving", "adults": 2, "transfers": 1 },
+    { "id": 47, "name": "Mr. Victor Hugo", "room": "Room 490", "dateRange": "03 Oct 2025 - 07 Oct 2025", "status": "departing", "adults": 1, "transfers": 0 },
+    { "id": 48, "name": "Ms. Wendy Lawson", "vipLevel": "VIP 3", "room": "Suite 480", "dateRange": "09 Oct 2025 - 15 Oct 2025", "status": "arriving", "group": "Lawson Media", "adults": 2, "children": 1, "transfers": 3 },
+    { "id": 49, "name": "Mr. Xavier Dunn", "room": "Room 265", "dateRange": "05 Oct 2025 - 08 Oct 2025", "status": "in-house", "adults": 2, "transfers": 1 },
+    { "id": 50, "name": "Ms. Yara Ibrahim", "vipLevel": "VIP 2", "room": "Suite 875", "dateRange": "07 Oct 2025 - 13 Oct 2025", "status": "arriving", "group": "Ibrahim Estates", "adults": 1, "transfers": 2 }
+  ]
+}

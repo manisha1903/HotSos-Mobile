@@ -1,0 +1,114 @@
+<div class="login-wrapper">
+
+  <!-- ── Step 1: PIN ── -->
+  @if (step() === 'pin') {
+    <div class="brand-header">
+      <h1><span>aMaDEUS</span> HotSOS Mobile</h1>
+    </div>
+
+    <div class="login-content">
+      <h2>Enter your PIN</h2>
+
+      <form [formGroup]="pinForm" (ngSubmit)="onPinSubmit()">
+        <div class="input-container">
+          <input
+            type="password"
+            formControlName="pin"
+            placeholder="Enter PIN"
+            [attr.disabled]="isLoading() ? true : null"
+            inputmode="numeric"
+            class="pin-input"
+            autocomplete="off"
+          />
+        </div>
+
+        <div class="error-container">
+          @if (errorMessage()) {
+            <p class="error-msg">{{ errorMessage() }}</p>
+          }
+          @if (pinForm.get('pin')?.touched && pinForm.get('pin')?.hasError('pattern')) {
+            <p class="error-msg">PIN must contain only numbers.</p>
+          }
+        </div>
+
+        <button
+          type="submit"
+          class="continue-btn"
+          [disabled]="pinForm.invalid || isLoading()"
+        >
+          {{ isLoading() ? 'Verifying…' : 'Continue' }}
+        </button>
+      </form>
+    </div>
+  }
+
+  <!-- ── Step 2: Password ── -->
+  @if (step() === 'password') {
+    <div class="pwd-screen">
+
+      <!-- Back chevron -->
+      <button class="back-btn" (click)="goBack()" aria-label="Back">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+          <path d="M15 18l-6-6 6-6" stroke="#111827" stroke-width="2.2"
+                stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+      </button>
+
+      <!-- Avatar + name -->
+      <div class="pwd-screen__user">
+        <div class="pwd-screen__avatar">{{ initials }}</div>
+        <span class="pwd-screen__name">{{ verifiedUser() }}</span>
+      </div>
+
+      <div class="login-content">
+        <h2>Enter your Password</h2>
+
+        <form [formGroup]="passwordForm" (ngSubmit)="onPasswordSubmit()">
+          <div class="input-container input-container--pwd">
+            <input
+              [type]="showPassword() ? 'text' : 'password'"
+              formControlName="password"
+              placeholder="••••••••••••"
+              [attr.disabled]="isLoading() ? true : null"
+              class="pin-input"
+              autocomplete="current-password"
+            />
+            <button type="button" class="eye-btn" (click)="showPassword.set(!showPassword())" tabindex="-1">
+              @if (!showPassword()) {
+                <!-- Eye-off -->
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none"
+                     stroke="#9ca3af" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M17.94 17.94A10.94 10.94 0 0112 20c-7 0-11-8-11-8a18.45 18.45 0 015.06-5.94"/>
+                  <path d="M9.9 4.24A9.12 9.12 0 0112 4c7 0 11 8 11 8a18.5 18.5 0 01-2.16 3.19"/>
+                  <path d="M1 1l22 22"/>
+                </svg>
+              } @else {
+                <!-- Eye -->
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none"
+                     stroke="#9ca3af" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/>
+                  <circle cx="12" cy="12" r="3"/>
+                </svg>
+              }
+            </button>
+          </div>
+
+          <div class="error-container">
+            @if (errorMessage()) {
+              <p class="error-msg">{{ errorMessage() }}</p>
+            }
+          </div>
+
+          <button
+            type="submit"
+            class="continue-btn"
+            [disabled]="passwordForm.invalid || isLoading()"
+          >
+            {{ isLoading() ? 'Logging in…' : 'Log In' }}
+          </button>
+        </form>
+      </div>
+    </div>
+  }
+
+</div>
