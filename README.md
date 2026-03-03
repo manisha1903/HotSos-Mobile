@@ -82,17 +82,6 @@ npx cap open ios
 ```
 
 ---
-
-## Environment Configurations
-
-| Configuration | File | Command |
-|---|---|---|
-| Development | `src/environments/environment.ts` | `ng serve` / `ng build --configuration=development` |
-| QA | `src/environments/environment.qa.ts` | `ng build --configuration=qa` |
-| Production | `src/environments/environment.prod.ts` | `ng build --configuration=production` |
-
----
-
 ## Folder Structure
 
 ```
@@ -123,16 +112,6 @@ src/environments/
 ├── environment.qa.ts              # QA
 └── environment.prod.ts            # Production
 ```
-
----
-
-## Mock Login Credentials
-
-| PIN | User |
-|---|---|
-| `1234` | John Watson |
-| `0000` | Jane Doe |
-| `9999` | Admin User |
 
 ---
 
