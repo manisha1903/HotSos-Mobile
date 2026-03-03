@@ -115,6 +115,12 @@ src/environments/
 
 ---
 
+## PIN	User
+
+1234	John Watson
+0000	Jane Doe
+9999	Admin User
+
 ## Running Tests
 
 ```bash
